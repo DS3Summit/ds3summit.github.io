@@ -1,1 +1,217 @@
-placeholder
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link type="image/x-icon" rel="icon" href="favicon.ico">
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
+  <script>WebFont.load({ google: { families: ['Source Sans Pro'] } });</script>
+  <script type="text/javascript" src="scrollit.js"></script>
+  <title>DS3: Developing Secure Systems Summit</title>
+</head>
+
+<body>
+
+<div id="nav">
+  <h1> Developing Secure Systems Summit (DS3) </h1>
+  <br>
+ <div id="hdr">
+ <ul>
+   <li class="active"><a data-scroll-nav="0">Introduction</a></li>
+   <li><a data-scroll-nav="1">Schedule</a></li>
+   <li><a data-scroll-nav="2">Registration</a></li>
+   <li><a data-scroll-nav="3">Organizers</a></li>
+ </ul>
+ </div>
+</div>
+
+<!<-- INTRODUCTION -->
+<div class="content-wrap" data-scroll-index="0">
+<div class="content" style="height:900px;">
+ <div class="interior row">
+  <h2>Introduction</h2>
+  <hr />
+  <p align="justify">
+   The state of the art in developing secure computer systems is
+   advancing rapidly, with progress in several communities around the
+   world spanning the software industry, academia, research labs, and
+   governments.
+  <br /><br />
+   The Developing Secure Systems Summit (DS3) seeks to establish a new
+   meeting ground for researchers and practitioners across these
+   communities. Our goal is to share progress and stimulate further
+   work on approaches that “build security in” to existing and new
+   computing systems.
+  <br /><br />
+   DS3 aims to be an inclusive event, building on several existing
+   communities to forge its identity. On the one hand, we aim to reach
+   out to the security research community that congregates at flagship
+   events like
+   <a href="https://www.ieee-security.org/TC/SP2020/index.html">IEEE Security and Privacy</a>,
+   the <a href="https://www.usenix.org/conference/usenixsecurity20">USENIX Security Symposium</a>,
+   and the <a href="https://www.sigsac.org/ccs/CCS2020/">ACM Conference on Computer and Communications Security</a>.
+   Equally, we seek to connect with the open source and
+   industrial software security community that gathers around events
+   like the
+   <a href="https://events19.linuxfoundation.org/events/linux-security-summit-north-america-2019/">Linux Security Summits</a>,
+   <a href="https://shmoocon.org/">ShmooCon</a>,
+   <a href="https://www.microsoft.com/BlueHat">BlueHat</a>, and
+   <a href="https://rwc.iacr.org/">Real World Crypto</a>, and many others.
+   Additionally, we hope to interest others whose works are
+   underrepresented at existing venues.
+   <br />   <br />
+   <b>DS3 in 2020:</b> For this year, we had initially envisioned a
+    2-day event hosted at Microsoft in Redmond. However, in light of
+    the global pandemic we are aiming instead to first build an online
+    community centered around a series of virtual seminars, drawing
+    inspiration from several successful virtual events in the past
+    months. 
+
+    Our online seminars will feature presentations from invited
+    speakers covering a broad range of topics, including but not
+    limited to some of the following.
+
+      <ul style="padding-left:2em; margin:0px 0px 0px 0px">
+       <li>Industrial users of secure-by-construction programming languages, e.g., Rust, Checked-C</li>
+       <li>Program proofs</li>
+       <li>Network security, including analysis of network configurations</li>
+       <li>Developers and users of Wasm</li>
+       <li>Secure IoT</li>
+       <li>Static analysis, particularly deployments at scale</li>
+       <li>Cryptography</li>
+       <li>Secure and private machine learning</li>
+       <li>Developers and users of blockchains</li>
+       <li>Government deployments of high-assurance software</li>
+       <li>Secure e-voting</li>
+       <li>Secure hardware designs</li>
+       <li>Secure systems architectures</li>
+     </ul>
+  </p>
+ </div>
+</div>
+</div>
+
+<!-- Section -->
+<div class="content-wrap alt" data-scroll-index="1">
+<div class="content" style="height:500px;">
+
+ <div class="interior row">
+   <h2>Schedule</h2>
+   <p> All times are displayed in US Pacific Time (UTC-8) </p>
+
+  <ul style="padding-left:2em">
+
+  <li style="margin-bottom: 1ex;"><b>Wednesday, November 18: 9am -- 10:30am </b>
+    <ul style="padding-left:2em">
+      <li><a href="https://www.microsoft.com/en-us/research/people/galenh/">Galen Hunt</a> (Microsoft) on IoT Security</li>
+    </ul>
+  </li>
+
+  <li style="margin-bottom: 1ex;"><b>TBD</b>
+    <ul style="padding-left:2em">
+      <li><a href="https://www.vusec.net/people/herbert-bos/">Herbert Bos</a> (VU Amsterdam) on Systems Security</li>
+    </ul>
+  </li>
+
+  <li style="margin-bottom: 1ex;"><b>Wednesday, December 2, 2020: 9am -- 10:30am</b>
+     <br> Web Security Panel </br>
+    <ul style="padding-left:2em">
+      <li><a href="http://asirap.net/">Parisa Tabriz</a> (Google) on Browser Security </li>
+      <li><a href="https://people.mpi-sws.org/~rossberg/">Andreas Rossberg</a> (Dfinity) on Web Assembly </li>
+      <li><a href="https://www.doc.ic.ac.uk/~livshits/">Ben Livshits</a> (Imperial College and Brave) on Browser Privacy </li>            
+    </ul>
+  </li>
+
+
+  <li style="margin-bottom: 1ex;"><b>Wednesday, December 9: 9am -- 10:30am </b>
+    <ul style="padding-left:2em">
+      <li><a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a> (University of Wisconsin) on Trustworthy Machine Learning</li>
+    </ul>
+  </li>
+
+  <li style="margin-bottom: 1ex;"><b>Wednesday, December 16: 10am -- 11:30am </b>
+    <ul style="padding-left:2em">
+      <li><a href="http://users.umiacs.umd.edu/~mmazurek/">Michelle Mazurek</a> (University of Maryland) on Human-centered Secure Development</li>
+    </ul>
+  </li>
+
+ </div>
+</div> 
+</div>
+
+<!-- Section -->
+<div class="content-wrap" data-scroll-index="2" style="margin-top:0px;">
+<div class="content">
+
+ <div class="interior row">
+  <h2>Registration</h2><hr />
+ </div>
+
+</div>
+</div>
+
+<!-- Section -->
+<div class="content-wrap alt" data-scroll-index="3">
+<div class="content" style="height:330px;">
+ <div class="interior row">
+   <h2>Organizers & Steering Committee</h2><hr />
+    <div style="float:left; width:20em">
+      <ul style="padding-left:2em; margin:0px 0px 0px 0px">
+          <li><a href="https://research.google/people/abadi/">Martin Abadi</a>, Google</li>
+          <li><a href="https://www.nsf.gov/staff/staff_bio.jsp?lanId=abanerje">Anindya Banerjee</a>, NSF</li>
+          <li><a href="http://www0.cs.ucl.ac.uk/staff/b.cook/">Byron Cook</a>, Amazon</li>
+          <li><a href="https://cryptocity.net/">Dan Guido</a>, Trail of Bits</li>
+          <li><a href="http://www.cs.umd.edu/~mwh/">Michael Hicks</a>, University of Maryland (Vice chair)</li>
+          <li><a href="https://pages.lip6.fr/Julia.Lawall/">Julia Lawall</a>, INRIA</li>
+          <li><a href="https://nebelwelt.net/">Mathias Payer</a>, EPFL</li>
+          <li><a href="https://www.comp.nus.edu.sg/~prateeks/">Prateek Saxena</a>, NUS</li>
+          <li><a href="https://www.microsoft.com/en-us/research/people/nswamy/">Nikhil Swamy</a>, Microsoft Research (Chair)</li>
+          <li><a href="https://www.microsoft.com/en-us/research/people/dtarditi/">David Tarditi</a>, Microsoft (Vice chair)</li>
+          <li><a href="https://www.veracode.com/blog/author/chris-wysopal">Chris Wysopal</a>, Veracode</p>
+      </ul>
+    </div>
+ </div>
+</div>
+</div>
+
+
+<!-- Footers -->
+<div class="foot-wrap"> <div id="footer"></div> </div>
+
+<script>
+var pages = ["introduction","download","tutorial","support","people","papers","talks"];
+var olde = 0;
+$(document).ready(function() {
+  var navpos = $('#hdr').offset();
+  $(window).bind('scroll', function() {
+    if ($(window).scrollTop() > navpos.top) {
+      $('#hdr').addClass('fixed');
+     }
+     else {
+      $('#hdr').removeClass('fixed');
+     }
+  });
+  $.scrollIt({
+   topOffset: -53,
+   scrollTime: 500,
+   onPageChange: function(x){
+    var newe = +x;
+    $($('#hdr li')[olde]).removeClass("active");
+    $($('#hdr li')[newe]).addClass("active");
+    olde = newe;
+    location.hash = pages[newe];
+   }
+  });
+});
+$(window).on('load hashchange', function(e){
+  var p = location.hash.substring(1);
+  console.log("LOAD "+p);
+  for(i=0; i<pages.length; i++)
+   if(pages[i] == p && olde != i)
+    $("#hdr a")[i].click();
+});
+</script>
