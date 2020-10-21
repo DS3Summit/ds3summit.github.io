@@ -142,7 +142,7 @@ h3, h4 {
 }
 
 #hdr ul li.active a {
-  color: #C51831;
+    color: rgba(255, 255, 255, 4);
 }
 
 #hdr ul li:first-child {
@@ -395,7 +395,7 @@ dd {
 }
 
 a {
-  color: #C51831;
+  color: rgba(57, 79, 156, 1);
   text-decoration: none;
 }
 
