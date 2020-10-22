@@ -1,0 +1,92 @@
+**CALL FOR PARTICIPATION**
+
+The Developing Secure Systems Summit (DS3)
+https://ds3summit.github.io
+
+Fall 2020 Online Speaker Series
+
+Starts November 18, 2020
+
+Online event broadcast live on YouTube
+
+Registration is free, but encouraged:
+  - The talks will be broadcast live and accessible without registration
+  - Please register to participate in discussions and breakout sessions
+
+--------------------------------------------------------------------------------
+OVERVIEW
+--------------------------------------------------------------------------------
+
+The state of the art in developing secure computer systems is
+advancing rapidly, with progress in several communities around the
+world spanning the software industry, academia, research labs, and
+governments.
+
+The Developing Secure Systems Summit (DS3) seeks to establish a new
+meeting ground for researchers and practitioners across these
+communities. Our goal is to share progress and stimulate further work
+on approaches that “build security in” to existing and new computing
+systems.
+
+DS3 aims to be an inclusive event, building on several existing
+communities to forge its identity. On the one hand, we aim to reach
+out to the security research community that congregates at flagship
+events like IEEE Security and Privacy, the USENIX Security Symposium,
+and the ACM Conference on Computer and Communications
+Security. Equally, we seek to connect with the open source and
+industrial software security community that gathers around events like
+the Linux Security Summits, ShmooCon, BlueHat, and Real World
+Crypto. Additionally, we hope to interest others whose works are
+underrepresented at existing venues.
+
+DS3 in 2020
+
+For this year, we had initially envisioned a 2-day event hosted at
+Microsoft in Redmond. However, in light of the global pandemic we are
+aiming instead to first build an online community centered around a
+series of virtual seminars, drawing inspiration from several
+successful virtual events in the past months.   SCHEDULE
+
+We are announcing now a first round of 7 invited speakers. We will
+announce additional events (e.g., breakout sessions and tutorials)
+will be announced separately. Further, based on feedback from
+participants, we expect to announce a second series of speakers in
+Spring 2021.
+
+--------------------------------------------------------------------------------
+SCHEDULE
+--------------------------------------------------------------------------------
+
+All in Pacific Time (UTC-7). A full program with titles and abstracts
+will be available on our website.
+
+1. Galen Hunt, Microsoft (November 18, 9am--1030am)
+
+2. Herbert Bos, Vrije Universiteit Amsterdam (TBD)
+
+3. Web Security Talks and Panel (December 2, 9am--1030am)
+   Featuring
+
+   * Parisa Tabriz, Google
+   * Ben Livshits, Imperial College and Brave
+   * Andreas Rossberg, Dfinity
+
+4. Somesh Jha, University of Wisconsin (December 9, 9am--1030am)
+
+5. Michelle Mazurek, University of Maryland (December 16, 10am--1130am)
+
+--------------------------------------------------------------------------------
+Organizers and Steering Committee
+--------------------------------------------------------------------------------
+
+Martin Abadi, Google
+Anindya Banerjee, NSF
+Byron Cook, Amazon
+Dan Guido, Trail of Bits
+Michael Hicks, University of Maryland (Vice chair)
+Julia Lawall, INRIA
+Mathias Payer, EPFL
+Prateek Saxena, NUS
+Nikhil Swamy, Microsoft Research (Chair)
+David Tarditi, Microsoft (Vice chair)
+Chris Wysopal, Veracode
