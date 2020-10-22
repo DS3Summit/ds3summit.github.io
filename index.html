@@ -28,7 +28,8 @@
    <li><a data-scroll-nav="1">Schedule</a></li>
    <li><a data-scroll-nav="2">Registration</a></li>
    <li><a data-scroll-nav="3">Organizers</a></li>
-   <li><a data-scroll-nav="4">Sponsors</a></li>   
+   <li><a data-scroll-nav="4">Sponsors</a></li>
+   <li><a data-scroll-nav="5">Code of Conduct</a></li>      
  </ul>
  </div>
 </div>
@@ -211,6 +212,32 @@
 </div>
 </div>
 
+<!-- Section -->
+<div class="content-wrap alt" data-scroll-index="5">
+<div class="content">
+  <h2>Code of Conduct</h2><hr />
+
+Microsoft’s mission is to empower every person and every organization
+on the planet to achieve more. This includes events Microsoft hosts
+and participates in, where we seek to create a respectful, friendly,
+and inclusive experience for all participants. As such, we do not
+tolerate harassing or disrespectful behavior, messages, images, or
+interactions by any event participant, in any form, at any aspect of
+the program including business and social activities, regardless of
+location. We do not tolerate any behavior that is degrading to any
+gender, race, sexual orientation or disability, or any behavior that
+would violate Microsoft’s Anti-Harassment and Anti-Discrimination
+Policy, Equal Employment Opportunity Policy, or Standards of Business
+Conduct. In short, the entire experience at the venue must meet our
+culture standards. We encourage everyone to assist in creating a
+welcoming and safe environment. Please report any concerns, harassing
+behavior, or suspicious or disruptive activity to venue staff, the
+event host or owner, or event staff. Microsoft reserves the right to
+refuse admittance to or remove any person from company-sponsored
+events at any time in its sole discretion.
+</div>
+</div>
+
 <!-- Footers -->
 <div class="foot-wrap">
   <div id="footer">
@@ -219,12 +246,12 @@
 </div>
 
 <script>
-var pages = ["introduction","schedule","registration","organizers","sponsors"];
+var pages = ["introduction","schedule","registration","organizers","sponsors", "code of conduct"];
 var olde = 0;
 $(document).ready(function() {
-  var navpos = $('#hdr').offset();
+  var navpos = $('#hdr').offset().top;
   $(window).bind('scroll', function() {
-    if ($(window).scrollTop() > navpos.top) {
+    if ($(window).scrollTop() >= navpos) {
       $('#hdr').addClass('fixed');
      }
      else {
@@ -232,7 +259,7 @@ $(document).ready(function() {
      }
   });
   $.scrollIt({
-   topOffset: -53,
+   topOffset: -75,
    scrollTime: 500,
    onPageChange: function(x){
     var newe = +x;
