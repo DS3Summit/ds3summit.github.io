@@ -6,6 +6,7 @@
   <link type="image/x-icon" rel="icon" href="favicon.ico">
   <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="./style.css">
+  <script src="./luxon.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
@@ -106,7 +107,7 @@
 
  <div class="interior row">
    <h2>Schedule</h2>
-   <p> All times are displayed in <b>US Pacific Time (UTC-7)</b>
+   <p> All times are displayed with respect to your computer's current time: <b id="Schedule:timezone"></b>
 
      <br/> The events will be broadcast live on
      this <a href="https://www.youtube.com/channel/UCwecec8CWSDpt2QExovo1tA">YouTube
@@ -117,19 +118,19 @@
 
   <ul style="padding-left:2em">
 
-  <li style="margin-bottom: 1ex;"><b>Wednesday, November 18: 9am -- 10:30am </b>
+  <li style="margin-bottom: 1ex;"><b id="Schedule:Week1"></b>
     <ul style="padding-left:2em">
       <li><a href="https://www.microsoft.com/en-us/research/people/galenh/">Galen Hunt</a> (Microsoft) on IoT Security</li>
     </ul>
   </li>
 
-  <li style="margin-bottom: 1ex;"><b>TBD</b>
+  <li style="margin-bottom: 1ex;"><b id="Schedule:Week2">TBD</b>
     <ul style="padding-left:2em">
       <li><a href="https://www.vusec.net/people/herbert-bos/">Herbert Bos</a> (VU Amsterdam) on Systems Security</li>
     </ul>
   </li>
 
-  <li style="margin-bottom: 1ex;"><b>Wednesday, December 2, 2020: 9am -- 10:30am</b>
+  <li style="margin-bottom: 1ex;"><b id="Schedule:Week3"></b>
      <br> Web Security Panel </br>
     <ul style="padding-left:2em">
       <li><a href="http://asirap.net/">Parisa Tabriz</a> (Google) on Browser Security </li>
@@ -139,13 +140,13 @@
   </li>
 
 
-  <li style="margin-bottom: 1ex;"><b>Wednesday, December 9: 9am -- 10:30am </b>
+  <li style="margin-bottom: 1ex;"><b id="Schedule:Week4"></b>
     <ul style="padding-left:2em">
       <li><a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a> (University of Wisconsin) on Trustworthy Machine Learning</li>
     </ul>
   </li>
 
-  <li style="margin-bottom: 1ex;"><b>Wednesday, December 16: 10am -- 11:30am </b>
+  <li style="margin-bottom: 1ex;"><b id="Schedule:Week5"></b>
     <ul style="padding-left:2em">
       <li><a href="http://users.umiacs.umd.edu/~mmazurek/">Michelle Mazurek</a> (University of Maryland)
         on <a href="mazurek.html">Human-centered Secure Development</a></li>
@@ -246,9 +247,28 @@ events at any time in its sole discretion.
 </div>
 
 <script>
-var pages = ["introduction","schedule","registration","organizers","sponsors", "code of conduct"];
-var olde = 0;
-$(document).ready(function() {
+  var pages = ["introduction","schedule","registration","organizers","sponsors", "code of conduct"];
+  var times = [{ tag: "Schedule:Week1", start: "2020-11-18T17:00:00+00:00", finish:"2020-11-18T18:30:00+00:00"},
+               { tag: "Schedule:Week3", start: "2020-12-02T17:00:00+00:00", finish:"2020-12-02T18:30:00+00:00"},
+               { tag: "Schedule:Week4", start: "2020-12-09T17:00:00+00:00", finish:"2020-12-09T18:30:00+00:00"},
+               { tag: "Schedule:Week5", start: "2020-12-16T18:00:00+00:00", finish:"2020-12-16T19:30:00+00:00"}];
+  var olde = 0;
+  $(document).ready(function() {
+  var tz = document.getElementById("Schedule:timezone");
+  tz.innerHTML = luxon.DateTime.local().toLocaleString(luxon.DateTime.DATETIME_MED_WITH_WEEKDAY);
+  times.forEach(function (event) {
+      var d = document.getElementById(event.tag);
+      var start = luxon.DateTime.fromISO(event.start);
+      var end = luxon.DateTime.fromISO(event.finish);
+      d.innerHTML =
+          start.toLocaleString(luxon.DateTime.DATETIME_MED_WITH_WEEKDAY) +
+          "--" +
+          end.toLocaleString(luxon.DateTime.TIME_SIMPLE) +
+          " (" +
+          start.offsetNameLong +
+          ")";
+  });
+      
   var navpos = $('#hdr').offset().top;
   $(window).bind('scroll', function() {
     if ($(window).scrollTop() >= navpos) {
