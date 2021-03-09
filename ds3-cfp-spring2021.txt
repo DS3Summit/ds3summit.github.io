@@ -1,0 +1,93 @@
+**CALL FOR PARTICIPATION**
+
+The Developing Secure Systems Summit (DS3)
+https://ds3summit.github.io
+
+Spring 2021 Online Speaker Series
+
+Starts March 17, 2021
+
+Online event broadcast live on YouTube at
+  https://www.youtube.com/channel/UCwecec8CWSDpt2QExovo1tA
+
+Registration is free, but encouraged via https://ds3summit.github.io:
+  - The talks will be broadcast live and accessible without registration
+  - Please register to participate in discussions and breakout sessions
+
+--------------------------------------------------------------------------------
+OVERVIEW
+--------------------------------------------------------------------------------
+
+The state of the art in developing secure computer systems is
+advancing rapidly, with progress in several communities around the
+world spanning the software industry, academia, research labs, and
+governments.
+
+The Developing Secure Systems Summit (DS3) seeks to establish a new
+meeting ground for researchers and practitioners across these
+communities. Our goal is to share progress and stimulate further work
+on approaches that “build security in” to existing and new computing
+systems.
+
+Following our online speaker series from Fall 2020, we are now
+announcing a series of events for Spring 2021.
+
+--------------------------------------------------------------------------------
+SCHEDULE
+--------------------------------------------------------------------------------
+
+All in Pacific Daylight Savings Time (UTC-7). A full program with
+titles and abstracts, and schedules in your timezone, is available
+on our website.
+
+* Wed, Mar 17, 2021, 10:00 AM--11:30 AM
+
+  Panel on Cybersecurity Initiatives by the US Government:
+    - William Scherlis, Director, DARPA I20
+    - Neal Ziring, Technical Director, National Security Agency's Cybersecurity Directorate
+    - Col. Brian K. Beachkofski, Commander, AFLCMC, Detachment 12 (Kessel Run)
+
+* Wed, Mar 31, 2021, 9:00 AM--10:30 AM
+
+  Ashley Williams, Rust Foundation
+
+
+* Wed, Apr 14, 2021, 9:00 AM--10:30 AM
+
+  Karthikeyan Bhargavan, INRIA
+
+* Wed, May 5, 2021, 2:00 PM--3:30 PM
+
+  Panel on Software Fuzzing:
+    - Marcel Boehme, Monash University
+    - Justin Campbell, Microsoft
+    - Kostya Serebryany, Google
+
+* Wed, May 19, 2021, 9:00 AM--10:30 AM
+
+  Kathleen Fisher, Tufts University
+
+* Wed, Jun 2, 2021, 9:00 AM--10:30 AM
+
+  Greg Kroah-Hartman, Linux Foundation
+
+* Wed, Jun 16, 2021, 9:00 AM--10:30 AM
+
+  Deepak Garg, Max Planck Institute for Software Sciences
+
+
+--------------------------------------------------------------------------------
+Organizers and Steering Committee
+--------------------------------------------------------------------------------
+
+Martin Abadi, Google
+Anindya Banerjee, NSF
+Byron Cook, Amazon
+Dan Guido, Trail of Bits
+Michael Hicks, University of Maryland (Vice chair)
+Julia Lawall, INRIA
+Mathias Payer, EPFL
+Prateek Saxena, NUS
+Nikhil Swamy, Microsoft Research (Chair)
+David Tarditi, Microsoft (Vice chair)
+Chris Wysopal, Veracode
