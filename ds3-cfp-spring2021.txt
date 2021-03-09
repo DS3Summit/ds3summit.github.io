@@ -45,7 +45,7 @@ on our website.
 
 * Wed, Mar 17, 2021, 10:00 AM--11:30 AM
 
-  Panel on Cybersecurity Initiatives by the US Government:
+  Panel on U.S. Government perspectives on developing secure systems: challenges and opportunities
     - William Scherlis, Director, DARPA I20
     - Neal Ziring, Technical Director, National Security Agency's Cybersecurity Directorate
     - Col. Brian K. Beachkofski, Commander, AFLCMC, Detachment 12 (Kessel Run)
