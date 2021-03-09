@@ -3,7 +3,7 @@
 The Developing Secure Systems Summit (DS3)
 https://ds3summit.github.io
 
-Spring 2021 Online Speaker Series
+**Spring 2021 Online Speaker Series**
 
 Starts March 17, 2021
 
@@ -13,6 +13,9 @@ Online event broadcast live on YouTube at
 Registration is free, but encouraged via https://ds3summit.github.io:
   - The talks will be broadcast live and accessible without registration
   - Please register to participate in discussions and breakout sessions
+
+If you registered for the Fall series, you need not register
+again. But, please help spread the word! Ask your friends to register.
 
 --------------------------------------------------------------------------------
 OVERVIEW
@@ -86,6 +89,7 @@ Byron Cook, Amazon
 Dan Guido, Trail of Bits
 Michael Hicks, University of Maryland (Vice chair)
 Julia Lawall, INRIA
+William "Brad" Martin, NSA
 Mathias Payer, EPFL
 Prateek Saxena, NUS
 Nikhil Swamy, Microsoft Research (Chair)
