@@ -1,0 +1,60 @@
+<html>
+
+<header>
+<title>
+High-Assurance Input Validation: Locking the Front Door</title>
+</header>
+
+<body>
+<center>
+<div style="text-align: justify; width: min(90%, 50em)">
+
+<h1 style="text-align: center">
+High-Assurance Input Validation: Locking the Front Door
+</h1>
+
+<b>Speaker: <a href="http://www.cs.tufts.edu/~kfisher/Kathleen_Fisher/Home.html">Kathleen Fisher</a></b>
+<br><br>
+
+
+Professor Kathleen Fisher is Chair of the Computer Science Department
+at Tufts University. Previously, she was a Program Manager at DARPA
+where she started and managed the HACMS and PPAML programs and a
+Principal Member of the Technical Staff at AT&T Labs Research. She
+received her PhD in Computer Science from Stanford
+University. Kathleen's research focuses on advancing the theory and
+practice of programming languages.  Kathleen is a Fellow of the
+Association of Computing Machinery (ACM) and a Hertz Foundation
+Fellow.
+
+She is a Council Member of the Computing Community Consortium, a board
+member of the Computing Research Association, and past Chair of
+DARPA's ISAT Study Group. She is also past Chair of the ACM Special
+Interest Group in Programming Languages (SIGPLAN), past Co-Chair of
+CRA's Committee on the Status of Women (CRA-W), a former editor of the
+Journal of Functional Programming, and a former associate editor of
+TOPLAS.  She is a member of the Board of Trustees of Harvey Mudd
+College.
+<br/><br/>
+<b>Abstract</b>
+<br/><br/>
+
+
+Cybersecurity is a hard problem with significant negative personal, financial, and national security ramifications for getting it wrong. Part of the reason it is difficult is that defenders have to lock every door whereas defenders only have to find one way in. Protecting against malicious program inputs is the equivalent of locking the front door, but according to DARPA's Safedocs Broad Agency Announcement, 80% of the issues in MITRE's Common Vulnerabilities and Exposures database involve input validation failures. We're not even properly locking the front door!  What would high-assurance input validation look like?  At the very least, it requires multiple steps:
+
+<ol>
+<li>  specifying the input language in a formal description language, </li>
+<li>  generating a high-assurance parser,  </li>
+<li>  validating the specification through systematic testing, and then </li>
+<li>  ensuring that client code appropriately handles all terms in the input language.  </li>
+</ol>
+
+Of course, this vision introduces multiple practical problems including the expressiveness of the formal description language, the existence and usability of the high-assurance parsing infrastructure, the performance of the generated parsers, and the applicability of reasoning tools for assessing client code. 
+
+In this talk, I will survey the state of the art in high-assurance input validation, discuss impediments to adoption, and speculate on future research directions.
+
+</div>
+</center>
+</body>
+
+</html>
